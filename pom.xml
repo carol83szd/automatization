@@ -2,5 +2,30 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Auto-QA</groupId>
   <artifactId>demo.qa</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version><dependencies>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>4.23.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-chrome-driver</artifactId>
+  		<version>4.22.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>io.github.bonigarcia</groupId>
+  		<artifactId>webdrivermanager</artifactId>
+  		<version>5.9.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-support</artifactId>
+  		<version>4.23.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>7.10.0</version>
+  	</dependency>
 </project>
