@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class Elements {
 	WebDriver driver;
-	WebElement elemButton, textBox, checkbox, radioButton, webTablets, buttons, links, brokenLinks, upAndDown,dynamicP;
+	WebElement elemButton, textBox, checkBox, radioButton, webTablets, buttons, links, brokenLinks, upAndDown,dynamicP;
 	List<WebElement> iconButtons;
 	
 	@BeforeTest
@@ -63,6 +63,31 @@ public class Elements {
 		address2Box.sendKeys(address2);
 		summit.click();
 		Thread.sleep(2000);
+	}
+	
+	@Test 
+	public void testCheckBox() throws InterruptedException {
+		Thread.sleep(2000);
+		checkBox = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-1']"));
+		checkBox.click();
+		WebElement expand;
+		List<WebElement> expand2;
+		expand = driver.findElement(By.cssSelector(".rct-icon.rct-icon-expand-close"));
+		expand.click();
+		Thread.sleep(2000);
+		expand2 = driver.findElements(By.cssSelector(".rct-icon.rct-icon-expand-close"));
+		int i=0;
+		while(i < expand2.size()) {
+			expand2.get(i).click();
+			Thread.sleep(1000);
+			i++;
+		}
+		List <WebElement> checkBoxes = driver.findElements(By.xpath("//span[@class='rct-title']"));
+		for(int a=0;a< 4; a++) {
+		int number = (int) (Math.random() * checkBoxes.size());
+		checkBoxes.get(number).click();
+		Thread.sleep(1000);
+		}
 	}
 	
 	@AfterTest

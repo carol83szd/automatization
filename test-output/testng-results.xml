@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-05T11:04:07 BOT" name="Default suite" finished-at="2025-01-05T11:04:26 BOT" duration-ms="19827">
+    <groups>
+    </groups>
+    <test started-at="2025-01-05T11:04:07 BOT" name="Default test" finished-at="2025-01-05T11:04:26 BOT" duration-ms="19827">
+      <class name="demo.qa.Elements">
+        <test-method is-config="true" signature="begin()[pri:0, instance:demo.qa.Elements@25be7b63]" started-at="2025-01-05T11:04:07 BOT" name="begin" finished-at="2025-01-05T11:04:14 BOT" duration-ms="7752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method signature="testCheckBox()[pri:0, instance:demo.qa.Elements@25be7b63]" started-at="2025-01-05T11:04:14 BOT" name="testCheckBox" finished-at="2025-01-05T11:04:26 BOT" duration-ms="11720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBox -->
+        <test-method is-config="true" signature="after()[pri:0, instance:demo.qa.Elements@25be7b63]" started-at="2025-01-05T11:04:26 BOT" name="after" finished-at="2025-01-05T11:04:26 BOT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- demo.qa.Elements -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
