@@ -90,6 +90,23 @@ public class Elements {
 		}
 	}
 	
+	@Test
+	public void testRadioButtons() throws InterruptedException {
+		Thread.sleep(2000);
+		radioButton = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-2']"));
+		radioButton.click();
+		List<WebElement> radio = driver.findElements(By.xpath("//label[@class='custom-control-label']"));
+		
+		int i =0;
+		while(i < radio.size()) {
+			radio.get(i).click();
+			Thread.sleep(1000);
+			radio.clear();
+			i++;
+			Thread.sleep(1000);
+		}
+	}
+	
 	@AfterTest
 	public void after() {
 		driver.close();

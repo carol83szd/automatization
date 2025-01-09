@@ -6,8 +6,8 @@
       <class name="demo.qa.Elements">
         <methods>
           <include name="after"/>
-          <include name="testCheckBox"/>
           <include name="begin"/>
+          <include name="testRadioButtons"/>
         </methods>
       </class> <!-- demo.qa.Elements -->
     </classes>
