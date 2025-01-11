@@ -107,6 +107,57 @@ public class Elements {
 		}
 	}
 	
+	@DataProvider (name ="dpWebTablets")
+	public Object[][] dpTablets(){
+		return new Object[][] {
+			
+			    {"John", "Smith", 34, "john.smith@example.com", 45000, "Finance"},
+			    {"Emma", "Johnson", 29, "emma.johnson@example.com", 39000, "Marketing"},
+			    {"James", "Brown", 42, "james.brown@example.com", 52000, "Human Resources"},
+			    {"Olivia", "Jones", 26, "olivia.jones@example.com", 41000, "Sales"},
+			    {"Michael", "Taylor", 38, "michael.taylor@example.com", 48000, "Operations"},
+			    {"Sophia", "Lee", 31, "sophia.lee@example.com", 44000, "Technology"},
+			    {"David", "Walker", 45, "david.walker@example.com", 55000, "Finance"},
+			    {"Isabella", "Hall", 28, "isabella.hall@example.com", 39000, "Marketing"},
+			    {"Daniel", "Allen", 37, "daniel.allen@example.com", 47000, "Human Resources"},
+			    {"Mia", "Young", 33, "mia.young@example.com", 43000, "Sales"},
+			    {"Christopher", "Harris", 40, "christopher.harris@example.com", 51000, "Operations"},
+			    {"Charlotte", "Clark", 25, "charlotte.clark@example.com", 40000, "Technology"},
+			    {"Matthew", "Lewis", 36, "matthew.lewis@example.com", 46000, "Finance"},
+			    {"Amelia", "Robinson", 27, "amelia.robinson@example.com", 39000, "Marketing"}
+			};
+	}
+	@Test(dataProvider = "dpWebTablets")
+	public void testWebTabletsAdd(String userName, String userLastName, int userAge, String userEm, int userSalary, String userDepartment) throws InterruptedException {
+		Thread.sleep(2000);
+		webTablets = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-3']"));
+		webTablets.click();
+		Thread.sleep(2000);
+		WebElement addNew = driver.findElement(By.xpath("//button[@id='addNewRecordButton']"));
+		addNew.click();
+		WebElement firstName = driver.findElement(By.xpath("//div//input[@id='firstName']"));
+		WebElement lastName = driver.findElement(By.xpath("//div//input[@id='lastName']"));
+		WebElement age = driver.findElement(By.xpath("//div//input[@id='age']"));
+		WebElement email = driver.findElement(By.xpath("//div//input[@id='userEmail']"));
+		WebElement salary = driver.findElement(By.xpath("//div//input[@id='salary']"));
+		WebElement department = driver.findElement(By.xpath("//div//input[@id='department']"));
+		WebElement btnSummit = driver.findElement(By.xpath("//div//button[@id='submit']"));
+		firstName.clear();
+		firstName.sendKeys(userName);
+		lastName.clear();
+		lastName.sendKeys(userLastName);
+		age.clear();
+		age.sendKeys(userAge+"");
+		email.clear();
+		email.sendKeys(userEm);
+		salary.clear();
+		salary.sendKeys(userSalary+"");
+		department.clear();
+		department.sendKeys(userDepartment);
+		btnSummit.click();
+		Thread.sleep(2000);
+	}
+	
 	@AfterTest
 	public void after() {
 		driver.close();
