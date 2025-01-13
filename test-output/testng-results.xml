@@ -1,501 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="22" passed="17" failed="5" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-11T14:19:58 BOT" name="Default suite" finished-at="2025-01-11T14:22:27 BOT" duration-ms="149494">
+  <suite started-at="2025-01-13T14:15:57 BOT" name="Default suite" finished-at="2025-01-13T14:17:14 BOT" duration-ms="77513">
     <groups>
     </groups>
-    <test started-at="2025-01-11T14:19:58 BOT" name="Default test" finished-at="2025-01-11T14:22:27 BOT" duration-ms="149494">
+    <test started-at="2025-01-13T14:15:57 BOT" name="Default test" finished-at="2025-01-13T14:17:14 BOT" duration-ms="77513">
       <class name="demo.qa.Elements">
-        <test-method is-config="true" signature="begin()[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:19:58 BOT" name="begin" finished-at="2025-01-11T14:20:04 BOT" duration-ms="6468" status="PASS">
+        <test-method is-config="true" signature="begin()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:15:57 BOT" name="begin" finished-at="2025-01-13T14:16:08 BOT" duration-ms="11089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- begin -->
-        <test-method signature="testCheckBox()[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:04 BOT" name="testCheckBox" finished-at="2025-01-11T14:20:16 BOT" duration-ms="11621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCheckBox -->
-        <test-method signature="testRadioButtons()[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:16 BOT" name="testRadioButtons" finished-at="2025-01-11T14:20:20 BOT" duration-ms="4145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRadioButtons -->
-        <test-method signature="testTextBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:20 BOT" name="testTextBox" data-provider="dataTextBox" finished-at="2025-01-11T14:20:26 BOT" duration-ms="6522" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Alice Johnson]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[alice@example.com,123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ ddddd]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Main St,Apt 1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBox -->
-        <test-method signature="testTextBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:26 BOT" name="testTextBox" data-provider="dataTextBox" finished-at="2025-01-11T14:20:32 BOT" duration-ms="5399" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bob Smith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bob_smith@]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Elm St]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Suite 200]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at demo.qa.Elements.testTextBox(Elements.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBox -->
-        <test-method signature="testTextBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:32 BOT" name="testTextBox" data-provider="dataTextBox" finished-at="2025-01-11T14:20:37 BOT" duration-ms="5397" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Carol White]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[carol.white@example.co]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[789 Oak St]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Floor 3]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at demo.qa.Elements.testTextBox(Elements.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBox -->
-        <test-method signature="testTextBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:37 BOT" name="testTextBox" data-provider="dataTextBox" finished-at="2025-01-11T14:20:43 BOT" duration-ms="5414" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Daniel Brown]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[daniel.brownexample.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[101 Maple Ave]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[dddddd]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at demo.qa.Elements.testTextBox(Elements.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBox -->
-        <test-method signature="testTextBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:43 BOT" name="testTextBox" data-provider="dataTextBox" finished-at="2025-01-11T14:20:48 BOT" duration-ms="5370" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Eva Green]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[eva@green]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[202 Pine St]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Unit 5A]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at demo.qa.Elements.testTextBox(Elements.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBox -->
-        <test-method signature="testTextBox(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:48 BOT" name="testTextBox" data-provider="dataTextBox" finished-at="2025-01-11T14:20:53 BOT" duration-ms="5435" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Grace Lewis]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[grace.lewis@example.org]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[dddd]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ddd]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1019, 689). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.265)
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9816648da39bda3175f60928b628a861, clickElement {id=f.170AEEED8B84E6041AE45FDC90AE8323.d.986A6B1EE443DAD94088CB8B355CB647.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/jm/dfzqt0v14s1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (9816648da39bda3175f60928b628a861)] -> xpath: //button[@id='submit']]
-Session ID: 9816648da39bda3175f60928b628a861
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at demo.qa.Elements.testTextBox(Elements.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBox -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:20:53 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:00 BOT" duration-ms="6754" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:08 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:13 BOT" duration-ms="5042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -531,7 +47,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:00 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:07 BOT" duration-ms="6765" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:13 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:18 BOT" duration-ms="4717" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -567,7 +83,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:07 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:14 BOT" duration-ms="6689" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:18 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:22 BOT" duration-ms="4728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -603,7 +119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:14 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:20 BOT" duration-ms="6670" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:22 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:27 BOT" duration-ms="4723" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -639,7 +155,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:20 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:27 BOT" duration-ms="6693" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:27 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:32 BOT" duration-ms="4705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -675,7 +191,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:27 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:34 BOT" duration-ms="6665" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:32 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:36 BOT" duration-ms="4662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -711,7 +227,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:34 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:40 BOT" duration-ms="6654" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:36 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:41 BOT" duration-ms="4653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -747,7 +263,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:40 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:47 BOT" duration-ms="6673" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:41 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:46 BOT" duration-ms="4732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -783,7 +299,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:47 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:21:54 BOT" duration-ms="6667" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:46 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:51 BOT" duration-ms="4718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -819,7 +335,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:21:54 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:22:00 BOT" duration-ms="6617" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:51 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:55 BOT" duration-ms="4649" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -855,7 +371,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:22:00 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:22:07 BOT" duration-ms="6677" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:55 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:00 BOT" duration-ms="4737" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -891,7 +407,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:22:07 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:22:14 BOT" duration-ms="6651" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:00 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:05 BOT" duration-ms="4705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -927,7 +443,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:22:14 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:22:20 BOT" duration-ms="6659" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:05 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:09 BOT" duration-ms="4706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -963,7 +479,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:22:20 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-11T14:22:27 BOT" duration-ms="6660" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:09 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:14 BOT" duration-ms="4713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -999,7 +515,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method is-config="true" signature="after()[pri:0, instance:demo.qa.Elements@4c163e3]" started-at="2025-01-11T14:22:27 BOT" name="after" finished-at="2025-01-11T14:22:27 BOT" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:14 BOT" name="after" finished-at="2025-01-13T14:17:14 BOT" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->

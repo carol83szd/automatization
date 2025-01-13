@@ -27,85 +27,85 @@ public class Elements {
 		elemButton = iconButtons.get(0);
 		elemButton.click();
 	}
-	@DataProvider(name ="dataTextBox")
-	public Object[][] data(){
-		return new Object[][] {
-			{"Alice Johnson","alice@example.com,123", " ddddd","Main St,Apt 1"},
-			{"Bob Smith","bob_smith@", "Elm St","Suite 200"},
-			{"Carol White","carol.white@example.co","789 Oak St","Floor 3"},
-			{"Daniel Brown","daniel.brownexample.com","101 Maple Ave","dddddd"},
-			{"Eva Green","eva@green","202 Pine St","Unit 5A"},
-			{"Grace Lewis","grace.lewis@example.org","dddd","ddd"}
-		};
-		
-	}
-	
-	
-	@Test(dataProvider = "dataTextBox")
-	public void testTextBox(String name, String email, String address1, String address2) throws InterruptedException {
-		Thread.sleep(2000);
-		textBox = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-0']"));
-		textBox.click();
-		Thread.sleep(2000);
-		WebElement nameBox, emailBox,address1Box, address2Box, summit;
-		nameBox = driver.findElement(By.xpath("//input[@id='userName']"));
-		emailBox = driver.findElement(By.xpath("//input[@id='userEmail']"));
-		address1Box = driver.findElement(By.xpath("//textarea[@id='currentAddress']"));
-		address2Box = driver.findElement(By.xpath("//textarea[@id='permanentAddress']"));
-		summit = driver.findElement(By.xpath("//button[@id='submit']"));
-		nameBox.clear();
-		nameBox.sendKeys(name);
-		emailBox.clear();
-		emailBox.sendKeys(email);
-		address1Box.clear();
-		address1Box.sendKeys(address1);
-		address2Box.clear();
-		address2Box.sendKeys(address2);
-		summit.click();
-		Thread.sleep(2000);
-	}
-	
-	@Test 
-	public void testCheckBox() throws InterruptedException {
-		Thread.sleep(2000);
-		checkBox = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-1']"));
-		checkBox.click();
-		WebElement expand;
-		List<WebElement> expand2;
-		expand = driver.findElement(By.cssSelector(".rct-icon.rct-icon-expand-close"));
-		expand.click();
-		Thread.sleep(2000);
-		expand2 = driver.findElements(By.cssSelector(".rct-icon.rct-icon-expand-close"));
-		int i=0;
-		while(i < expand2.size()) {
-			expand2.get(i).click();
-			Thread.sleep(1000);
-			i++;
-		}
-		List <WebElement> checkBoxes = driver.findElements(By.xpath("//span[@class='rct-title']"));
-		for(int a=0;a< 4; a++) {
-		int number = (int) (Math.random() * checkBoxes.size());
-		checkBoxes.get(number).click();
-		Thread.sleep(1000);
-		}
-	}
-	
-	@Test
-	public void testRadioButtons() throws InterruptedException {
-		Thread.sleep(2000);
-		radioButton = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-2']"));
-		radioButton.click();
-		List<WebElement> radio = driver.findElements(By.xpath("//label[@class='custom-control-label']"));
-		
-		int i =0;
-		while(i < radio.size()) {
-			radio.get(i).click();
-			Thread.sleep(1000);
-			radio.clear();
-			i++;
-			Thread.sleep(1000);
-		}
-	}
+//	@DataProvider(name ="dataTextBox")
+//	public Object[][] data(){
+//		return new Object[][] {
+//			{"Alice Johnson","alice@example.com,123", " ddddd","Main St,Apt 1"},
+//			{"Bob Smith","bob_smith@", "Elm St","Suite 200"},
+//			{"Carol White","carol.white@example.co","789 Oak St","Floor 3"},
+//			{"Daniel Brown","daniel.brownexample.com","101 Maple Ave","dddddd"},
+//			{"Eva Green","eva@green","202 Pine St","Unit 5A"},
+//			{"Grace Lewis","grace.lewis@example.org","dddd","ddd"}
+//		};
+//		
+//	}
+//	
+//	
+//	@Test(dataProvider = "dataTextBox")
+//	public void testTextBox(String name, String email, String address1, String address2) throws InterruptedException {
+//		Thread.sleep(2000);
+//		textBox = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-0']"));
+//		textBox.click();
+//		Thread.sleep(2000);
+//		WebElement nameBox, emailBox,address1Box, address2Box, summit;
+//		nameBox = driver.findElement(By.xpath("//input[@id='userName']"));
+//		emailBox = driver.findElement(By.xpath("//input[@id='userEmail']"));
+//		address1Box = driver.findElement(By.xpath("//textarea[@id='currentAddress']"));
+//		address2Box = driver.findElement(By.xpath("//textarea[@id='permanentAddress']"));
+//		summit = driver.findElement(By.xpath("//button[@id='submit']"));
+//		nameBox.clear();
+//		nameBox.sendKeys(name);
+//		emailBox.clear();
+//		emailBox.sendKeys(email);
+//		address1Box.clear();
+//		address1Box.sendKeys(address1);
+//		address2Box.clear();
+//		address2Box.sendKeys(address2);
+//		summit.click();
+//		Thread.sleep(2000);
+//	}
+//	
+//	@Test 
+//	public void testCheckBox() throws InterruptedException {
+//		Thread.sleep(2000);
+//		checkBox = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-1']"));
+//		checkBox.click();
+//		WebElement expand;
+//		List<WebElement> expand2;
+//		expand = driver.findElement(By.cssSelector(".rct-icon.rct-icon-expand-close"));
+//		expand.click();
+//		Thread.sleep(2000);
+//		expand2 = driver.findElements(By.cssSelector(".rct-icon.rct-icon-expand-close"));
+//		int i=0;
+//		while(i < expand2.size()) {
+//			expand2.get(i).click();
+//			Thread.sleep(1000);
+//			i++;
+//		}
+//		List <WebElement> checkBoxes = driver.findElements(By.xpath("//span[@class='rct-title']"));
+//		for(int a=0;a< 4; a++) {
+//		int number = (int) (Math.random() * checkBoxes.size());
+//		checkBoxes.get(number).click();
+//		Thread.sleep(1000);
+//		}
+//	}
+//	
+//	@Test
+//	public void testRadioButtons() throws InterruptedException {
+//		Thread.sleep(2000);
+//		radioButton = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-2']"));
+//		radioButton.click();
+//		List<WebElement> radio = driver.findElements(By.xpath("//label[@class='custom-control-label']"));
+//		
+//		int i =0;
+//		while(i < radio.size()) {
+//			radio.get(i).click();
+//			Thread.sleep(1000);
+//			radio.clear();
+//			i++;
+//			Thread.sleep(1000);
+//		}
+//	}
 	
 	@DataProvider (name ="dpWebTablets")
 	public Object[][] dpTablets(){
@@ -155,8 +155,33 @@ public class Elements {
 		department.clear();
 		department.sendKeys(userDepartment);
 		btnSummit.click();
-		Thread.sleep(2000);
+		
 	}
+	public void testWebTabletsEdit() throws InterruptedException {
+		Thread.sleep(2000);
+		List<WebElement> edit = driver.findElements(By.xpath("//div//span[@class='mr-2']"));
+		WebElement name, lastName,email,age, salary,department, sentChanges;
+		name = driver.findElement(By.xpath("//div//input[@id='firstName']"));
+		lastName = driver.findElement(By.xpath("//div//input[@id='lastName']"));
+		email = driver.findElement(By.xpath("//div//input[@id='userEmail']"));
+		age = driver.findElement(By.xpath("//div//input[@id='age']"));;
+		salary = driver.findElement(By.xpath("//div//input[@id='salary']"));
+		sentChanges = driver.findElement(By.xpath("//div//input[@id='lastName']"));
+		department = driver.findElement(By.xpath("//div//button[@id='submit']"));
+		int randomNumber = (int)(Math.random()*edit.size())+1;
+		edit.get(randomNumber).click();
+		Thread.sleep(2000);
+		name.clear();
+		name.sendKeys("Luisiana");
+		lastName.clear();
+		lastName.sendKeys("jimmy");
+		Thread.sleep(2000);
+
+		sentChanges.click();
+		
+		
+	}
+	
 	
 	@AfterTest
 	public void after() {
