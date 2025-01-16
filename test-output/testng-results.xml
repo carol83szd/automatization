@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-13T14:15:57 BOT" name="Default suite" finished-at="2025-01-13T14:17:14 BOT" duration-ms="77513">
+  <suite started-at="2025-01-16T13:12:25 BOT" name="Default suite" finished-at="2025-01-16T13:13:08 BOT" duration-ms="42191">
     <groups>
     </groups>
-    <test started-at="2025-01-13T14:15:57 BOT" name="Default test" finished-at="2025-01-13T14:17:14 BOT" duration-ms="77513">
+    <test started-at="2025-01-16T13:12:25 BOT" name="Default test" finished-at="2025-01-16T13:13:08 BOT" duration-ms="42191">
       <class name="demo.qa.Elements">
-        <test-method is-config="true" signature="begin()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:15:57 BOT" name="begin" finished-at="2025-01-13T14:16:08 BOT" duration-ms="11089" status="PASS">
+        <test-method is-config="true" signature="begin()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:25 BOT" name="begin" finished-at="2025-01-16T13:12:34 BOT" duration-ms="8542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- begin -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:08 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:13 BOT" duration-ms="5042" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:34 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:36 BOT" duration-ms="2230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:13 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:18 BOT" duration-ms="4717" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:36 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:38 BOT" duration-ms="1735" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:18 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:22 BOT" duration-ms="4728" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:38 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:40 BOT" duration-ms="1766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:22 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:27 BOT" duration-ms="4723" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:40 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:41 BOT" duration-ms="1670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:27 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:32 BOT" duration-ms="4705" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:41 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:43 BOT" duration-ms="1669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:32 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:36 BOT" duration-ms="4662" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:43 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:45 BOT" duration-ms="1839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:36 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:41 BOT" duration-ms="4653" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:45 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:47 BOT" duration-ms="1653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:41 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:46 BOT" duration-ms="4732" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:47 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:48 BOT" duration-ms="1645" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,7 +299,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:46 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:51 BOT" duration-ms="4718" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:48 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:50 BOT" duration-ms="1635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,7 +335,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:51 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:16:55 BOT" duration-ms="4649" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:50 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:51 BOT" duration-ms="1653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,7 +371,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:16:55 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:00 BOT" duration-ms="4737" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:51 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:53 BOT" duration-ms="1666" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:00 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:05 BOT" duration-ms="4705" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:53 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:55 BOT" duration-ms="1648" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -443,7 +443,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:05 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:09 BOT" duration-ms="4706" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:55 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:56 BOT" duration-ms="1641" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -479,7 +479,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:09 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-13T14:17:14 BOT" duration-ms="4713" status="PASS">
+        <test-method signature="testWebTabletsAdd(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:56 BOT" name="testWebTabletsAdd" data-provider="dpWebTablets" finished-at="2025-01-16T13:12:58 BOT" duration-ms="1637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -515,7 +515,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebTabletsAdd -->
-        <test-method is-config="true" signature="after()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-13T14:17:14 BOT" name="after" finished-at="2025-01-13T14:17:14 BOT" duration-ms="159" status="PASS">
+        <test-method signature="testWebTabletsEdit()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:12:58 BOT" name="testWebTabletsEdit" finished-at="2025-01-16T13:13:07 BOT" duration-ms="9335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebTabletsEdit -->
+        <test-method is-config="true" signature="after()[pri:0, instance:demo.qa.Elements@28dcca0c]" started-at="2025-01-16T13:13:07 BOT" name="after" finished-at="2025-01-16T13:13:08 BOT" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->

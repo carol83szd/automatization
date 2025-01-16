@@ -5,9 +5,9 @@
     <classes>
       <class name="demo.qa.Elements">
         <methods>
-          <include name="testTextBox" invocation-numbers="1 2 3 4 5"/>
           <include name="after"/>
           <include name="begin"/>
+          <include name="testWebTabletsEdit"/>
         </methods>
       </class> <!-- demo.qa.Elements -->
     </classes>
